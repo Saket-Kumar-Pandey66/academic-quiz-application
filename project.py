@@ -240,11 +240,7 @@ def run_quiz(conn, category_id, question_count=QUESTIONS_PER_ATTEMPT, input_fn=i
 
 def start():
     print("*" * 100)
-    print("""QUIZ
-PREPARED BY
-1. Saket Kumar Pandey
-2. Priyanshu Kumar Singh
-3. Mohd.Arqum""")
+    print("""QUIZ""")
     print("""
 The Quiz consists of a single round:
 For every correct answer: 4 points will be rewarded.
